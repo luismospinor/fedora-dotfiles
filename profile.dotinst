@@ -1,0 +1,8 @@
+{
+  "name": "Fedora Setup - Luis",
+  "id": "com.luis.fedora",
+  "version": "1.0.0",
+  "author": "Luis Mario Ospino Ruiz",
+  "source": "https://github.com/luismospinor/fedora-dotfiles.git",
+  "subfolder": "dotfiles"
+}
