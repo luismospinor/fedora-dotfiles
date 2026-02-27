@@ -5,9 +5,9 @@
 echo "/ml4w-modern;/ml4w-modern/default" > $HOME/.config/ml4w/settings/waybar-theme.sh
 $HOME/.config/waybar/launch.sh &
 
-# Set nwg-dock-hyprland
+# Dock disabled
 echo "modern" > $HOME/.config/ml4w/settings/dock-theme
-# $HOME/.config/nwg-dock-hyprland/launch.sh &
+# Dock disabled
 
 # Set swaync
 echo '@import "themes/modern/style.css";' > $HOME/.config/swaync/style.css
