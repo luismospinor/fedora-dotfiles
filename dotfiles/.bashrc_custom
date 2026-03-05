@@ -27,3 +27,12 @@ bind '"\t": menu-complete'
 
 # Shift+TAB para retroceder en las opciones
 bind '"\e[Z": menu-complete-backward'
+
+# -----------------------------------------------------
+# Herramientas de Desarrollo
+# -----------------------------------------------------
+# Iniciar Zoxide (usa 'z' en lugar de 'cd' para saltar entre carpetas)
+eval "$(zoxide init bash)"
+
+# Alias para leer archivos siempre con colores y números de línea
+alias cat='bat'
